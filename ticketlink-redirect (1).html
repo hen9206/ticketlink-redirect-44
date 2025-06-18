@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>티켓링크로 이동 중...</title>
+</head>
+<body>
+  <p>예매 페이지로 이동 중입니다. 잠시만 기다려 주세요...</p>
+
+  <a id="ticketlink" href="https://www.ticketlink.co.kr/reserve/product/55095?scheduleId=1456823350" style="display: none;">예매 이동</a>
+
+  <script>
+    setTimeout(function() {
+      document.getElementById('ticketlink').click();
+    }, 1000); // 1초 후 자동 클릭
+  </script>
+</body>
+</html>
